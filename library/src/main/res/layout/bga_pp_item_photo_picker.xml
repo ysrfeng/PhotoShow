@@ -20,10 +20,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:clickable="true"
-        android:paddingBottom="@dimen/bga_pp_size_level2"
-        android:paddingLeft="@dimen/bga_pp_size_level2"
-        android:paddingRight="@dimen/bga_pp_size_level1"
-        android:paddingTop="@dimen/bga_pp_size_level1"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
         android:src="@mipmap/bga_pp_ic_cb_normal" />
 
 </RelativeLayout>
