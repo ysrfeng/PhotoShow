@@ -8,12 +8,14 @@ import androidx.annotation.NonNull;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.wtyt.exhibition.R;
+
 import java.io.File;
 import java.util.List;
 
 import cn.bingoogolapple.baseadapter.BGABaseAdapterUtil;
 import cn.bingoogolapple.photopicker.activity.BGAPPToolbarActivity;
-import cn.bingoogolapple.photopicker.demo.R;
+
 import cn.bingoogolapple.photopicker.imageloader.BGAImage;
 import cn.bingoogolapple.photopicker.util.BGAPhotoHelper;
 import cn.bingoogolapple.photopicker.util.BGAPhotoPickerUtil;

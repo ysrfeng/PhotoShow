@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.bingoogolapple.photopicker.demo">
+    package="com.wtyt.exhibition">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".App"
+        android:name="cn.bingoogolapple.photopicker.demo.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.MomentListActivity"
+            android:name="cn.bingoogolapple.photopicker.demo.activity.MomentListActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden">
 
         </activity>
         <activity
-            android:name=".activity.MomentAddActivity"
+            android:name="cn.bingoogolapple.photopicker.demo.activity.MomentAddActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" >
             <intent-filter>
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.SystemGalleryActivity"
+            android:name="cn.bingoogolapple.photopicker.demo.activity.SystemGalleryActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
     </application>
